@@ -5,7 +5,7 @@ export class AddIsBlocked1566135243910 implements MigrationInterface {
       "administrators",
       new TableColumn({
         name: "isBlocked",
-        type: "tinyint",
+        type: "BOOLEAN",
         isNullable: false,
         default: 0
       })
